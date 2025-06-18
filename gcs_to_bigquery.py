@@ -20,7 +20,7 @@ with DAG(
     schedule_interval=None,
     default_args=default_args,
     catchup=False,
-    tags=['Gcs', 'bigquery'],
+    tags=['Gcs', 'bigqueryy'],
 ) as dag:
     
     start = EmptyOperator(task_id='start')
